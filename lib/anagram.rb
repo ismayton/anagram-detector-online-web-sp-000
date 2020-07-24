@@ -2,7 +2,7 @@ require 'pry'
 
 class Anagram
   
-  attr_accessor :word, 
+  attr_accessor :word, :solution, 
   
   def initialize(word)
     @word = word.split('')
@@ -13,10 +13,10 @@ class Anagram
     array.each do |word|
       word_array = word.split('')
       if @word_array = word_array
-        return word 
+        @solution << word 
       end
     end
-    false
+    @solution
   end
   
 end
