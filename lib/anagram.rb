@@ -18,8 +18,5 @@ class Anagram
     end
     solution
   end
- 
-  
-  
   
 end
