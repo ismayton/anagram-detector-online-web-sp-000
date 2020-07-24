@@ -4,12 +4,12 @@ class Anagram
   
   attr_accessor :word_array, 
   
-  def initialize(word)
+  def initialize
     @word_array = word.split('')
     binding.pry
   end
   
-  def match
+  def match(array)
     array.each do |word|
       word_array = word.split('')
       if @word_array = word_array
