@@ -9,14 +9,6 @@ class Anagram
     binding.pry
   end
   
-  def match(array)
-    array.each do |word|
-      word_array = word.split('')
-      if @word_array = word_array
-        @solution << word 
-      end
-    end
-    @solution
-  end
+  
   
 end
