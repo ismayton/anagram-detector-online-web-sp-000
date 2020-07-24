@@ -1,9 +1,12 @@
+require 'pry'
+
 class Anagram
   
   attr_accessor :word_array, 
   
   def initialize(word)
     @word_array = word.split('')
+    binding.pry
   end
   
   def match(array)
